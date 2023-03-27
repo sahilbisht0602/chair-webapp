@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+}
+
+.chair-info li {
+  list-style-type: none;
+  line-height: 1.7;
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+/* header css */
+
+.main-container {
+  width: 960px;
+  margin: 0 auto;
+}
+.header {
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 96px;
+  gap: 45px;
+}
+
+.header-info {
+  align-self: center;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  margin-bottom: 32px;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #087f5b;
+  padding: 15px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 80px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 35px;
+  letter-spacing: -1px;
+  margin-bottom: 50px;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+
+.features-icon {
+  stroke: #087f5b;
+  width: 32px;
+}
+
+.features-icon {
+  margin-bottom: 15px;
+}
+
+section {
+  margin-bottom: 96px;
+}
+
+.features-text {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.testimonial-section {
+  background-color: #087f5b;
+  padding: 20px 35px;
+  border-radius: 10px;
+}
+
+.testimonial-info {
+  grid-column: 2/-1;
+  color: #fff;
+  align-self: center;
+}
+
+.testimonial-title {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.7;
+  color: #c3fae8;
+}
+
+.testimonial-author {
+  color: #e6fcf5;
+}
+
+.mid-align {
+  padding: 15px;
+}
+
+h4 {
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.price-info {
+  /* text-align: center; */
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+
+  /* margin-left: 15px; */
+}
+
+li svg {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+
+.small-btn {
+  background-color: #087f5b;
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.chair-info {
+  box-shadow: 0 20px 30px 0 rgba(169, 153, 153, 0.149);
+  border-radius: 12px;
+}
+
+.chair-info img {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
